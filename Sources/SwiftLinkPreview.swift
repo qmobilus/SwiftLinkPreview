@@ -18,6 +18,7 @@ public enum SwiftLinkResponseKey: String {
     case icon
     case video
     case price
+    case sitename
 }
 
 open class Cancellable: NSObject {
@@ -535,6 +536,7 @@ extension SwiftLinkPreview {
             Response.Key.description.rawValue,
             Response.Key.image.rawValue,
             Response.Key.video.rawValue,
+            Response.Key.sitename.rawValue,
         ]
 
         let metatags = Regex.pregMatchAll(htmlCode, regex: Regex.metatagPattern, index: 1)
