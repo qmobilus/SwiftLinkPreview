@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-	s.ios.deployment_target = '8.0'
+	s.ios.deployment_target = '11.0'
 	s.osx.deployment_target     = "10.10"
     s.watchos.deployment_target = '2.0'
     s.tvos.deployment_target    = '9.0'
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
 	s.homepage = "https://github.com/LeonardoCardoso/SwiftLinkPreview"
 	s.source = { :git => "https://github.com/LeonardoCardoso/SwiftLinkPreview.git", :tag => s.version }
 	s.source_files = "Sources/**/*.swift"
-	s.swift_version = '4.2'
+	s.swift_version = '5'
 
 end
